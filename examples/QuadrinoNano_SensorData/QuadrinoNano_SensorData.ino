@@ -147,7 +147,7 @@ void printAccelerometer(){
   Serial.print("MPU9150: ACCELEROMETER");
   Serial.print("           X = ");
   Serial.print(MPU9150_readSensor(MPU9150_ACCEL_XOUT_L,MPU9150_ACCEL_XOUT_H));
-  Serial.print("           X = ");
+  Serial.print("           Y = ");
   Serial.print(MPU9150_readSensor(MPU9150_ACCEL_YOUT_L,MPU9150_ACCEL_YOUT_H));
   Serial.print("           Z = ");
   Serial.println(MPU9150_readSensor(MPU9150_ACCEL_ZOUT_L,MPU9150_ACCEL_ZOUT_H));
